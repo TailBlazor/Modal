@@ -1,4 +1,4 @@
-# Tailblazor.Model
+# TailBlazor.Model
 Basic Blazor Modal which can have a customizable header, body, and footer for Tailwindcss
 
 Without passing it anything you'll get very basic styles, however giving it it's base classes and you can really make a customizable list component that Tailwind is capable of.
@@ -32,7 +32,7 @@ Add line to your \_Imports.razor
 Simply open up a component and add your content. Sizes include Small, Medium, Large, ExtraLarge
 
 ```
-<TailblazorModals IsOpen="[OPEN_FLAG]" ModelWidth="TailblazorModals.Size.Large">
+<TailBlazorModals IsOpen="[OPEN_FLAG]" ModelWidth="TailBlazorModals.Size.Large">
     <Header>
         ...
     </Header>
@@ -42,6 +42,6 @@ Simply open up a component and add your content. Sizes include Small, Medium, La
     <Footer>
         ...
     </Footer>
-</TailblazorModals>
+</TailBlazorModals>
 
 ```
