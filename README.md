@@ -1,4 +1,4 @@
-# TailBlazor.Model
+# TailBlazor.Modal
 Basic Blazor Modal which can have a customizable header, body, and footer for Tailwindcss
 
 Without passing it anything you'll get very basic styles, however giving it it's base classes and you can really make a customizable list component that Tailwind is capable of.
