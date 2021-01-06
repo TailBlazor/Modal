@@ -3,8 +3,6 @@ Basic Blazor Modal which can have a customizable header, body, and footer for Ta
 
 Without passing it anything you'll get very basic styles, however giving it it's base classes and you can really make a customizable list component that Tailwind is capable of.
 
-It has the ability to be a single section or multiple for easy customization.
-
 ![Nuget](https://img.shields.io/nuget/v/TailBlazor.Modal.svg)
 
 ![Demo](screenshot.png)
