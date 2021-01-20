@@ -22,15 +22,15 @@ Or via the dotnet CLI.
 Add line to your \_Imports.razor
 
 ```
-@using TailBlazor.Modal
+@using Tailblazor.Modal.src 
 ```
 
 ### 2. Create Modal Component
 
-Simply open up a component and add your content. Sizes include Small, Medium, Large, ExtraLarge
+Simply open up a component and add your content. Sizes include Small, Medium, Large, Larger, Largest
 
 ```
-<TailBlazorModals IsOpen="[OPEN_FLAG]" ModelWidth="TailBlazorModals.Size.Large">
+<TailblazorModals IsOpen="@IsModalOpenXl" ModelWidth="TailblazorModals.Size.Largest">
     <Header>
         ...
     </Header>
@@ -41,5 +41,4 @@ Simply open up a component and add your content. Sizes include Small, Medium, La
         ...
     </Footer>
 </TailBlazorModals>
-
 ```
