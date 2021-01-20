@@ -50,7 +50,7 @@
 </style>
 @code {
 
-    public enum Size { Small, Medium, Large, ExtraLarge };
+    public enum Size { Small, Medium, Large, Larger, Largest };
 
     [Parameter]
     public RenderFragment Header { get; set; }
@@ -82,8 +82,11 @@
             case Size.Large:
                 ModelSize = "max-w-2xl";
                 break;
-            case Size.ExtraLarge:
+            case Size.Larger:
                 ModelSize = "max-w-4xl";
+                break;
+            case Size.Largest:
+                ModelSize = "max-w-7xl";
                 break;
             default:
                 break;
