@@ -19,10 +19,10 @@ Or via the dotnet CLI.
 
 ### 1. Add Imports
 
-Add line to your \_Imports.razor
+Add line to your \_Imports.razor if you're not already using implicit global usings.
 
 ```
-@using Tailblazor.Modal.src 
+@using TailBlazor.Modal
 ```
 
 ### 2. Create Modal Component
@@ -30,7 +30,7 @@ Add line to your \_Imports.razor
 Simply open up a component and add your content. Sizes include Small, Medium, Large, Larger, Largest
 
 ```
-<TailblazorModals IsOpen="@IsModalOpenXl" ModelWidth="TailblazorModals.Size.Largest">
+<TailBlazorModals IsOpen="@IsModalOpenXl" ModelWidth="TailBlazorModals.Size.Largest">
     <Header>
         ...
     </Header>
@@ -41,4 +41,7 @@ Simply open up a component and add your content. Sizes include Small, Medium, La
         ...
     </Footer>
 </TailBlazorModals>
+
 ```
+
+The component targets .NET 9 and is compatible with Blazor's new Auto render mode, so it can light up interactivity whether your app prerenders on the server or runs entirely on WebAssembly.
